@@ -28,8 +28,8 @@ Antes de executar o projeto, verifique se você possui o seguinte:
 Primeiro, clone este repositório em seu computador:
 
 ```bash
-git clone https://github.com/seuusuario/projeto-email-php.git
-cd projeto-email-php
+git clone https://github.com/FelipeSDS23/testes_phpmailer-composer.git
+cd testes_phpmailer-composer
 ```
 
 2. Instalar as Dependências
