@@ -25,23 +25,29 @@ Antes de executar o projeto, verifique se você possui o seguinte:
 
 ### 1. Clonar o Repositório
 
-Primeiro, clone este repositório em seu computador (Caso utilize o XAMPP mova os arquivos para C:\xampp\htdocs):
+Primeiro, clone este repositório em seu computador:
 
 ```bash
-git clone https://github.com/FelipeSDS23/testes_phpmailer-composer.git
-cd testes_phpmailer-composer
+git clone https://github.com/seuusuario/projeto-email-php.git
+cd projeto-email-php
+```
 
 2. Instalar as Dependências
 Dentro do diretório do projeto, execute o Composer para instalar as dependências (no caso, o PHPMailer):
 
-bash
+```bash
 Copiar código
 composer install
+```
+
 Isso irá baixar o PHPMailer e todas as suas dependências.
 
 3. Crie e configure um arquivo .env na raiz do projeto
 Altere os dados do servidor SMTP conforme exemplificado no arquivo ".env.example.
 
-Exemplo de configuração básica:
+Configuração básica e acesso:
 
-Atenção: Altere os dados do servidor SMTP (Host, Username, Password) para os do seu serviço de e-mail.
+- Atenção: Altere os dados do servidor SMTP para os do seu serviço de e-mail.
+- Caso utilize o XAMPP mova a pasta com os arquivos para o diretório htdocs do seu servidor (geralmente localizado em: C:\xampp\htdocs)
+- Acesse em: http://localhost/testes_phpmailer-composer/src/index.php
+

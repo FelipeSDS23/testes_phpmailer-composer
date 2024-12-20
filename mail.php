@@ -37,9 +37,9 @@
                 $mail->Body    = $message;
 
                 $mail->send();
-                header('Location: '. 'http://localhost/testes_php_mailer/src/index.php?returnMsg=Message has been sent&status=sucess');
+                header('Location: '. 'http://localhost/testes_phpmailer-composer/src/index.php?returnMsg=Message has been sent&status=sucess');
             } catch (Exception $e) {
-                header('Location: '. 'http://localhost/testes_php_mailer/src/index.php?returnMsg=Message could not be sent&status=error');
+                header('Location: '. 'http://localhost/testes_phpmailer-composer/src/index.php?returnMsg=Message could not be sent&status=error');
             }
         }
 
