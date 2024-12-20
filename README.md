@@ -44,9 +44,7 @@ Isso irá baixar o PHPMailer e todas as suas dependências.
 3. Crie e configure um arquivo .env na raiz do projeto
 Altere os dados do servidor SMTP conforme exemplificado no arquivo ".env.example.
 
-Configuração básica e acesso:
-
-- Atenção: Altere os dados do servidor SMTP para os do seu serviço de e-mail.
-- Caso utilize o XAMPP mova a pasta com os arquivos para o diretório htdocs do seu servidor (geralmente localizado em: C:\xampp\htdocs)
+Atenção: 
+- Caso utilize o XAMPP mova a pasta com os arquivos do projeto para o diretório htdocs do seu servidor (geralmente localizado em: C:\xampp\htdocs)
 - Acesse em: http://localhost/testes_phpmailer-composer/src/index.php
 
