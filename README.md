@@ -36,7 +36,6 @@ cd testes_phpmailer-composer
 Dentro do diretório do projeto, execute o Composer para instalar as dependências (no caso, o PHPMailer):
 
 ```bash
-Copiar código
 composer install
 ```
 
